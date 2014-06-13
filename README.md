@@ -9,7 +9,7 @@ Installation
 Just use this one-liner
 
 ```bash
-mkdir -p /web/deployment && cd /web/deployment @@ git clone https://github.com/dw33z1lP/mutu-mg.git && bash install.sh
+wget --no-check-certificate https://raw.githubusercontent.com/dw33z1lP/mutu-mg/master/install.sh -O - | sh
 ```
 
 Licensing
